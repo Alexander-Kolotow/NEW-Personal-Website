@@ -2,6 +2,10 @@
 @import url(footer.css);
 @import url(./components/upbutton.css);
 
+* {
+    box-sizing: border-box;
+    font-family: Roboto, "Lucida Sans Unicode", sans-serif;
+  }
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;

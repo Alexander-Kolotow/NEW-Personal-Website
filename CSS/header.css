@@ -1,19 +1,36 @@
+img {
+    object-fit: cover;
+    width: 10%;
+    margin-right: 650px;
+    border: 5px solid darkgreen;
+    border-radius: 50%;
+}
 header {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
-
+h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 nav ul {
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    transform: translate(-50%, -50%);
     list-style: none;
 }
-
 nav li {
     display: inline;
     margin: 0 15px;
 }
-
 nav a {
     text-decoration: none;
     color: #fff;
