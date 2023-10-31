@@ -15,6 +15,46 @@ body {
 section {
     padding: 20px;
 }
+#cv {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.cv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    border-top: 2px solid #333;
+    position: relative;
+    width: 70%;
+}
+
+.node {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.node:nth-child(1) {
+    left: 0;
+}
+
+.node:nth-child(2) {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.node:nth-child(3) {
+    right: 0;
+}
+
+
 
 
 

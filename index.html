@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Kolotow - Webentwickler</title>
     <link rel="stylesheet" href="./CSS/body.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -18,31 +21,46 @@
         </nav>
     </header>
     
+    <!-- Der Strich muss noch vertikal ausgerichtet werden (CSS) und die nodes jeweils links und rechts vom Strich -->
     <section id="cv">
-        
+        <div class="cv-container">
+            <div class="line">
+                <div class="node">
+                    <p>Ihre erste berufliche Station</p>
+                </div>
+                <div class="node">
+                    <p>Ihre zweite berufliche Station</p>
+                </div>
+                <div class="node">
+                    <p>Ihre dritte berufliche Station</p>
+                </div>
+            </div>
+        </div>
     </section>
     
+    
     <section id="skills">
-       
+       <!-- Tech Stack usw.-->
     </section>
     
     <section id="education">
-        
+        <!-- Schule, Uni -->
     </section>
 
     <footer>
         <div class="sticky-footer">
             <div class="interests">
+                <h2>interests</h2>
                 <ul>
-                    <li>Coding</li>
-                    <li>Sports</li>
-                    <li>Healthy Nutrition</li>
-                    <li>foodsharing.de</li>
-                    <li>Family & Friends</li>
+                    <i class="fa-solid fa-laptop-code"><br><br>Coding</i>
+                    <i class="fa-solid fa-person-running"><br><br>Sports</i>
+                    <i class="fa-solid fa-utensils"><br><br>healthy nutrition</i>
+                    <i class="fa-solid fa-handshake-angle"><br><br>foodsharing.de</i>
+                    <i class="fa-solid fa-people-roof"><br><br>family & friends</i>
                 </ul>
             </div>
             <div class="up-button">
-                <a href="#header">↑ UP </a>
+                <a href="#header"> UP </a>
             </div>
         </div>
     </footer>
