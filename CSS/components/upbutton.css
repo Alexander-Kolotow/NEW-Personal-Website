@@ -1,24 +1,18 @@
 .up-button {
-    position: fixed; /* Wir verwenden 'fixed', damit der Button immer sichtbar bleibt */
-    bottom: 20px; /* Hier können Sie den Abstand zum unteren Rand der Seite anpassen */
-    right: 20px; /* Hier können Sie den Abstand zum rechten Rand der Seite anpassen */
-    width: 60px; /* Hier legen wir die Breite des Buttons fest */
-    height: 60px; /* Hier legen wir die Höhe des Buttons fest */
-    background-color: darkgreen;
-    color: #fff;
-    border: none;
-    border-radius: 50%; /* Runde Form */
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px; /* Hier können Sie die Schriftgröße anpassen */
+position: absolute;
+top: 5%;
+left: 2%;
+background-color: darkgreen;
+color: #fff;
+border: none;
+border-radius: 50%;
+cursor: pointer;
+font-size: 24px;
 }
 .up-button a {
     text-decoration: none;
     color: black;
 }
-/* Hover-Effekt */
 .up-button:hover {
-    background-color: greenyellow; 
+    background-color: greenyellow;
 }

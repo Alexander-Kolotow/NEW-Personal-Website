@@ -9,10 +9,11 @@ header {
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    background-color: #333;
+    background-color: #a3b4cc;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    margin-bottom: 30px;
 }
 h1 {
     position: absolute;
@@ -37,5 +38,5 @@ nav a {
     color: #fff;
 }
 nav a:hover {
-color: greenyellow;
+color: darkgreen;
 }
