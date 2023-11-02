@@ -21,6 +21,20 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.social-link-linkedin {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
+.social-link-github {
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
 nav ul {
     position: absolute;
     top: 35%;
