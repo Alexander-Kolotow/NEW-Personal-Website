@@ -1,4 +1,3 @@
-// Import Functions & Modules
 import { JokeSection } from "./components/JokeSection/JokeSection.js";
 import { Joke } from "./components/Joke/joke.js";
 
