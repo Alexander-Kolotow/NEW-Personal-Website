@@ -11,6 +11,7 @@ document.querySelector(".up-button").addEventListener("click", function() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
+// bad jokes API mit fetch soll hier erscheinen!
 
 
 
