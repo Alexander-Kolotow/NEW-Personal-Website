@@ -1,0 +1,136 @@
+@import url("./components/JokeSection/JokeSection.css");
+@import url("./components/Joke/Joke.css");
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, "Lucida Sans Unicode", sans-serif;
+  }
+  img {
+    object-fit: cover;
+    width: 10%;
+    margin-right: 650px;
+    border: 5px solid darkgreen;
+    border-radius: 50%;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a3b4cc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social-link-linkedin {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
+.social-link-github {
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
+nav ul {
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin: 0 15px;  
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+}
+nav a:hover {
+color: darkgreen;
+}
+body {
+    background-color: #474e5d;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 20px;
+}
+#education {
+  padding-bottom: 250px;
+}
+.box {
+  background-color: #ffffff; /* Weißer Hintergrund */
+  padding: 20px; /* Innenabstand für den Container */
+  border: 1px solid #ccc; /* Rahmen um den Container */
+  margin: 10px; /* Außenabstand für den Container */
+  border-radius: 10px;
+}
+
+.box h2 {
+  font-size: 1.5em; /* Überschriftsgröße anpassen */
+}
+
+.box ul {
+  list-style-type: disc; /* Listenpunktstil */
+  margin-left: 20px; /* Einzug für Listenpunkte */
+}
+
+.box li {
+  margin-bottom: 5px; /* Abstand zwischen Listenpunkten */
+}
+
+.up-button {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  background-color: darkgreen;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  }
+  .up-button a {
+      text-decoration: none;
+      color: black;
+  }
+  .up-button:hover {
+      background-color: greenyellow;
+  }
+  footer {
+    background-color: #a3b4cc;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.interests ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
