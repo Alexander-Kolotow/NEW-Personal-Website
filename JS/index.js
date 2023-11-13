@@ -11,7 +11,7 @@ document.querySelector(".up-button").addEventListener("click", function() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// bad jokes API mit fetch soll hier erscheinen!
+// bad jokes API
 
 async function fetchJoke() {
   fetch('https://example-apis.vercel.app/api/bad-jokes/random')
@@ -20,9 +20,6 @@ async function fetchJoke() {
       // Hier fügst du den Witz in das HTML-Dokument ein
       document.getElementById('bad-jokes').innerHTML = data.joke;
     })
-    .catch(error => {
-      console.error('Error fetching joke:', error);
-    });
 }
 fetchJoke();
 
