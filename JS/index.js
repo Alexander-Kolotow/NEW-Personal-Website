@@ -21,6 +21,8 @@ async function fetchJoke() {
       document.getElementById('bad-jokes').innerHTML = data.joke;
     })
 }
-fetchJoke();
+
+// Eventlistener für den Klick auf den Button hinzufügen
+document.querySelector('button').addEventListener('click', fetchJoke);
 
 
